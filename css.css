@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Mandali&family=Mochiy+Pop+P+One&display=swap');
+
+* {
+    font-family: 'Mandali',
+        sans-serif;
+    font-family: 'Mochiy Pop P One',
+        sans-serif;
+
+    background-color: azure;
+}
+
+#naslov-index {
+    margin-top: 50px;
+    margin-left: 550px;
+}
+
+.dugmici {
+    margin-top: 40px;
+    margin-left: 800px;
+}
+
+.a {
+    width: 350px;
+    height: 65px;
+    margin-bottom: 25px;
+}
