@@ -17,12 +17,12 @@
                              <?php
                                 include('Database.php');
                                 $database = new Database("prodavnice");
-                                $sql1 = "select id,naziv naziv from prodavnica";
+                                $sql1 = "select id,nazivProdavnice from prodavnica";
                                 $rzt1 = $database->conn->query($sql1);
 
                                 while ($prod = mysqli_fetch_assoc($rzt1)) {
                                 ?>
-                                 <option value="<?php echo $prod['id']; ?>"><?php echo $prod['naziv']; ?></option>
+                                 <option value="<?php echo $prod['id']; ?>"><?php echo $prod['nazivProdavnice']; ?></option>
                              <?php
                                 }
                                 ?>
@@ -30,12 +30,12 @@
                          <label class="form-label">Dobavljač</label>
                          <select class="form-select" id="select-dobavljac">
                              <?php
-                                $sql2 = "select * from dobavljac";
+                                $sql2 = "select id,nazivDobavljaca from dobavljac";
                                 $rzt2 = $database->conn->query($sql2);
 
                                 while ($dob = mysqli_fetch_assoc($rzt2)) {
                                 ?>
-                                 <option value="<?php echo $dob['id']; ?>"><?php echo $dob['naziv']; ?></option>
+                                 <option value="<?php echo $dob['id']; ?>"><?php echo $dob['nazivDobavljaca']; ?></option>
                              <?php
                                 }
                                 ?>
