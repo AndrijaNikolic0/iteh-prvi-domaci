@@ -25,7 +25,7 @@
             </div>
             <div id="2"></div>
             <div class="dugme">
-                <button class="btn btn-primary a">Izmena proizvoda</button>
+                <a href="izmena.php"> <button class="btn btn-primary a">Izmena proizvoda</button></a>
             </div>
             <div id="3"></div>
 
