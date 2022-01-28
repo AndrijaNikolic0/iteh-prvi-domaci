@@ -50,7 +50,9 @@
                             <td>
                                 <button type="button" class="btn btn-secondary" value="<?php echo $rztRed['id'] ?>" id="izmena_dugme">Izmeni</button>
                             </td>
-                            <td><button type="button" class="btn btn-danger" value="<?php echo $rztRed['id'] ?>" id="brisanje_dugme">Brisanje</button></td>
+                            <td>
+                                <a href="obrisiproizvod.php?id_proizvoda=<?php echo $rztRed['id']; ?>"><button type="button" class="btn btn-danger" value="<?php echo $rztRed['id'] ?>" id="brisanje_dugme">Brisanje</button></a>
+                            </td>
                         </tr>
 
                     <?php } ?>
